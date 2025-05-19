@@ -1,0 +1,26 @@
+.ody {
+  background-color: red;
+  padding: 2px;
+  color: white;
+  text-align: center; }
+
+#nested {
+  border-style: solid;
+  border-width: 17px;
+  border-color: red; }
+
+.button-b, .button.r, .button-s {
+  border: none;
+  padding: 5px;
+  text-align: center;
+  font-size: 50px;
+  cursor: pointer; }
+
+.button.r {
+  background-color: red; }
+
+.button-s {
+  background-color: blue;
+  color: green; }
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,38 @@
+$var1: red;
+$var2: 18px;
+$var3: white;
+$var4: 2px;
+$var5: blue;
+
+.ody{
+background-color: $var1;
+padding: $var4;
+color: $var3;
+text-align:center;
+}
+
+#nested{
+	border: {
+		style: solid;
+		width: 17px;
+		color: red;
+		}
+	}
+
+
+.button-b{
+	border:none;
+	padding:5px;
+	text-align:center;
+	font-size:50px;
+	cursor: pointer;
+	}
+.button.r{
+	@extend .button-b;
+	background-color:red;
+	}
+.button-s{
+@extend .button-b;
+background-color:blue;
+color:green;
+}
